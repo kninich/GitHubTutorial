@@ -3,3 +3,9 @@ france-paris
 usa-washington dc
 spain-madrid
 germany-berlin
+-------------
+egypt-cairo
+morocco-rabat
+algeria-algeria
+libia-tripoli
+tunisia-tunisia
