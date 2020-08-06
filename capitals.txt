@@ -1,0 +1,5 @@
+italy-roma
+france-paris
+usa-washington dc
+spain-madrid
+germany-berlin
