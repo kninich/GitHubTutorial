@@ -3,3 +3,8 @@ japan
 italy
 france
 spain
+egypt
+morocco
+algeria
+tunisia
+mali
