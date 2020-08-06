@@ -1,0 +1,55 @@
+1- create folder ABC12345 that contains some files
+
+2- right inside the folder-get git bach here
+
+3- git init
+
+4- git add .
+
+5- git commit -m 'first commit'
+
+6- go to github, create a new repo with same name as
+the folder ABC12345
+
+7- git remote add origin https://github.com/kninich/ABC12345.git   
+
+8- git push -u origin master
+
+9- make new changes locally in your file ( add & commit)
+
+10- git push -u origin master     
+
+------------------------------------------------------
+                Create new branch
+------------------------------------------------------
+
+11- git checkout -b newBranchName   (create new branch)
+
+
+12- make new changes to the file again and commit 
+
+13- git push -u origin newBranchName 
+(push changes made in the new branch to remote (not to master but new branch in remote also))
+
+
+14-check in github , u will see 2 branches
+
+------------------------------------------------------
+                Merge to Master
+------------------------------------------------------
+1- git checkout master
+
+2- git merge newBranchName
+
+3- git push -u origin master (push to remote)
+
+---------------------------------------------------
+                delete branch
+---------------------------------------------------
+
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+
